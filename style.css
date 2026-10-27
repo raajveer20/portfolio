@@ -1,0 +1,275 @@
+/* ---------- BASE ---------- */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #101210;
+  color: #F2F4EF;
+}
+
+.purple { color: #B7F34A; }
+.dot    { color: #B7F34A; }
+
+a { text-decoration: none; }
+
+/* ---------- NAVBAR ---------- */
+.navbar {
+  padding: 16px 5%;
+  background: #101210;
+  border-bottom: 1px solid #ececf1;
+}
+
+.logo {
+  display: inline-block;
+  width: 25%;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.links {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.links a {
+  display: inline-block;
+  padding: 6px 12px;
+  color: #6b806c;
+  font-weight: 600;
+}
+
+.links a.active { color: #B7F34A; }
+
+.chat-wrap {
+  display: inline-block;
+  width: 24%;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.chat {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding-top: 8px;
+  background: #1f2028;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/* ---------- SECTIONS ---------- */
+.section {
+  padding: 80px 5%;
+  border-bottom: 1px solid #ececf1;
+}
+
+.title {
+  margin: 0 0 40px 0;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+/* ---------- HOME ---------- */
+.hero { padding: 100px 5%; }
+
+.hero-text {
+  display: inline-block;
+  width: 58%;
+  vertical-align: middle;
+}
+
+.hero-photo {
+  display: inline-block;
+  width: 40%;
+  vertical-align: middle;
+}
+
+.hello {
+  margin: 0 0 6px 0;
+  font-size: 22px;
+}
+
+.big {
+  margin: 0 0 20px 0;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 0.9;
+  margin: 30px 0;
+}
+
+.intro {
+  width: 90%;
+  margin: 0 0 30px 0;
+  color: #B7F34A;
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 22px;
+  margin: 0 10px 10px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.dark  { background: #1f2028; color: white; }
+.light { background: #B7F34A; color: #1f2028; }
+
+.ring {
+  width: 360px;
+  padding: 16px;
+  margin: 0 auto;
+  border: 1px solid #c1fdb5;
+  border-radius: 50%;
+}
+
+.photo {
+  width: 100%;
+  height: 326px;
+  background: #d1d5db;
+  border-radius: 50%;
+}
+
+.photo-img {
+  width: 100%;
+  height: 326px;
+  border-radius: 50%;
+}
+
+/* ---------- EXPERIENCE ---------- */
+.exp {
+  padding: 4px 0 4px 24px;
+  border-left: 3px solid #B7F34A;
+}
+
+.job { margin: 0 0 36px 0; }
+
+.co {
+  display: inline-block;
+  width: 22%;
+  vertical-align: top;
+  font-size: 18px;
+  font-weight: 600;
+  color: #6b806d;
+}
+
+.detail {
+  display: inline-block;
+  width: 76%;
+  vertical-align: top;
+}
+
+.detail h2 {
+  margin: 0 0 4px 0;
+  font-size: 20px;
+}
+
+.date {
+  margin: 0 0 16px 0;
+  color: #6b806c;
+  font-size: 12px;
+}
+
+.point {
+  margin: 8px 0;
+  color: #6b806c;
+  font-size: 14px;
+}
+
+/* ---------- SKILLS ---------- */
+.col {
+  display: inline-block;
+  width: 24%;
+  vertical-align: top;
+}
+
+.col h3 {
+  margin: 0 0 14px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.item {
+  margin: 8px 0;
+  color: #6b806c;
+  font-size: 14px;
+}
+
+/* ---------- ABOUT ---------- */
+.quote {
+  padding: 4px 0 4px 20px;
+  margin: 0 0 50px 0;
+  border-left: 6px solid #B7F34A;
+  color: #6b806f;
+  font-size: 20px;
+}
+
+.half {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.small   { width: 32%; margin-right: 2%; }
+.big-half { width: 64%; }
+
+.sub {
+  margin: 0 0 14px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.panel {
+  padding: 20px;
+  background: #6b806c;
+  border-radius: 20px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 8px 14px;
+  margin: 6px 4px;
+  background: #1f2028;
+  color: #6b806c;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+.star { color: #B7F34A; }
+
+.place {
+  min-height: 300px;
+  padding-top: 60px;
+}
+
+.globe {
+  width: 260px;
+  height: 260px;
+  padding-top: 110px;
+  margin: 0 auto;
+  background: #6b806c;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.pin {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: #B7F34A;
+  border-radius: 50%;
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+  padding: 24px;
+  margin: 0;
+  text-align: center;
+  color: #6b806c;
+  font-size: 14px;
+}
